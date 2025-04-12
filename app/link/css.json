@@ -1,0 +1,27 @@
+{
+    "css":["assets/plugins/simple-line-icons/simple-line-icons.min.css",
+    "assets/plugins/font-awesome/css/font-awesome.min.css",
+    "assets/plugins/bootstrap/css/bootstrap.min.css",
+    "assets/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css",
+    "assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css",
+    "assets/plugins/material/material.min.css",
+    "assets/css/material_style.css",
+    "assets/css/pages/animate_page.css",
+    "assets/css/pages/steps.css",
+    "assets/plugins/datatables/plugins/bootstrap/dataTables.bootstrap4.min.css",
+    "assets/plugins/dropzone/dropzone.css",
+    "assets/plugins/material-datetimepicker/bootstrap-material-datetimepicker.css",
+    "assets/css/plugins.min.css",
+    "assets/css/style.css",
+    "assets/css/responsive.css",
+    "assets/css/theme-color.css",
+    "assets/css/pages/formlayout.css",
+    "assets/plugins/jquery-tags-input/jquery-tags-input.css",
+    "assets/plugins/select2/css/select2.css",
+    "assets/plugins/select2/css/select2-bootstrap.min.css",
+    "assets/css/pages/animate_page.css",
+    "assets/plugins/sweet-alert/sweetalert.min.css",
+    "assets/plugins/summernote/summernote.css",
+    "assets/css/jquery-ui.css"
+    ]
+}

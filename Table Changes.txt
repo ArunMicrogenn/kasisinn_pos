@@ -1,0 +1,12 @@
+alter table  itemmas add specialrate numeric(12,2)
+alter table  itemmas add isfa bigint
+alter table mas_smsmessage add appotpmsg VarchaR(1000)
+
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+alter Procedure [dbo].[Get_Paymode]
+@ID BIGINT=0,
+@Companyid bigint as 
+ SELECT Payid,Paymode,ordby,prefix,defaults,shortname FROM Paymode
+ WHERE Payid  =(CASE WHEN @ID=0 THEN Payid ELSE @ID END ) and isnull(posapplicable,0)=1
